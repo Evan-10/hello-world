@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Rainbow</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport"content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+	<section class="header">
+		<div class="container">
+			<img src="images/14.png">
+			<button type="button" class="login-btn">Login</button>
+		</div>
+		<h1>Travel Across The Globe</h1>
+		<div class="input-group">
+			<input type="text" class="from-control" placeholder="Country or City">
+			<div class="input-group-append">
+				<button type="submit" class="input-group-text btn">Search</button>
+			</div>
+		</div>
+	 </section>
+	 <section class="features">
+	 	<h1>Featured Destinations</h1>
+	 	<div class="container">
+	 		<div class="row">
+	 			<div class="col-md-4">
+	 				<div class="featurre-box">
+	 					<div class="feature-img">
+	 						<img src="images/2.jpg">
+	 						<div class="price">
+	 							<p>77$</p>						
+	 						  </div>
+	 						<div class="rating">
+	 							<i class="fa fa-star"></i>
+	 							<i class="fa fa-star"></i>
+	 							<i class="fa fa-star"></i>
+	 							<i class="fa fa-star-half-o"></i>
+	 							<i class="fa fa-star-o"></i>
+	 					</div>
+	 				</div>
+	 				<div class="feature-details">
+	 					<h4>Sydney</h4>
+	 					<p>Sydney, spectacularly draped around its glorious harbour and beaches, has visual wow factor like few other cities. Scratch the surface                                                       and it only gets better.</p>
+	 					<div>
+	 						<span><i class="fa fa-map-marker"></i>Sydney</span>
+	 						<span><i class="fa fa-sun-o"></i>4 Days</span>
+	 						<span><i class="fa fa-moon-o"></i>3 Nights</span>
+	 					</div>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	   <div class="col-md-4">
+	 	   	<div class="featurre-box">
+	 					<div class="feature-img">
+	 						<img src="images/6.jpg">
+	 						<div class="price">
+	 							<p>85$</p>						
+	 						  </div>
+	 						<div class="rating">
+	 							<i class="fa fa-star"></i>
+	 							<i class="fa fa-star"></i>
+	 							<i class="fa fa-star"></i>
+	 							<i class="fa fa-star-half-o"></i>
+	 							<i class="fa fa-star-o"></i>
+	 					</div>
+	 				</div>
+	 				<div class="feature-details">
+	 					<h4>Singapore</h4>
+	 					<p>The city-state of Singapore has emerged as a world-class technology hub in Asia and has become a favored destination for firms looking to                                                      springboard into the regions growing markets.</p>
+	 					<div>
+	 						<span><i class="fa fa-map-marker"></i>Sydney</span>
+	 						<span><i class="fa fa-sun-o"></i>4 Days</span>
+	 						<span><i class="fa fa-moon-o"></i>3 Nights</span>
+	 					</div>
+	 				</div>
+	 			 </div>
+	 	<div class="col-md-4"></div>
+	 	<div class="featurre-box">
+	 					<div class="feature-img">
+	 						<img src="images/5.jpg">
+	 						<div class="price">
+	 							<p>93$</p>						
+	 						  </div>
+	 						<div class="rating">
+	 							<i class="fa fa-star"></i>
+	 							<i class="fa fa-star"></i>
+	 							<i class="fa fa-star"></i>
+	 							<i class="fa fa-star-half-o"></i>
+	 							<i class="fa fa-star-o"></i>
+	 					</div>
+	 				</div>
+	 				<div class="feature-details">
+	 					<h4>Paris</h4>
+	 					<p>France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its                                                    fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower.</p>
+	 						<span><i class="fa fa-map-marker"></i>Sydney</span>
+	 						<span><i class="fa fa-sun-o"></i>4 Days</span>
+	 						<span><i class="fa fa-moon-o"></i>3 Nights</span>
+	 					   </div>
+	 					</div>
+	 		       </div>
+	 	     </div>	 			
+	     </div>
+	</div>
+</section>
+<section class="gallery">
+	<h1>Travelling Gallery</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="gallery-box">
+				<img src="images/16.jpg">
+				<h4>Sydney</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="gallery-box">
+				<img src="images/17.jpg">
+				<h4>Singapore</h4>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+				<div class="gallery-box">
+				<img src="images/18.jpg">
+				<h4>France</h4>
+				</div>
+	     </div>
+	     <div class="col-md-3">
+				<div class="gallery-box">
+				<img src="images/3.jpg">
+				<h4>Ethiopia</h4>
+				</div>
+			  </div>
+		</div>
+	</div>
+</section>
+<section class="banner">
+	<div class="banner-highlights">
+		<div class="container">
+			<div class="">
+				<div class="row">
+					<div class="col-md-8">
+						<h2>Get 30% on top destination</h2>
+						<p>Book your tickets before 31 december and arival 30% flat discount.</p>
+					</div>
+					<div class="col-md-4"></div>
+					<button type="button" class="booking-btn">Book Now</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="users-feedback">
+	<h1>Users Review</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="user-review">
+					<p>Sydney is one of the worlds most attractive cities.Set on beautiful blue Sydney Harbour, this dynamic city is full of colonial history, heritage                                                architecture, modern style,and a perfect harbourside.</p>
+					<h5>Aaron Travis</h5>
+					<small>Sydney</small>
+				</div>
+				<img src="images/11.jpg">
+			</div>
+			<div class="col-md-4">
+				<div class="user-review">
+					<p>Singapore is a wonderful, first-world oasis in Southeast Asia.There are a myriad of devleping countries filled with ancient temples which rise                                            from steamy jungles,It's an adventurers paradise.</p>
+					<h5>A.Jaber</h5>
+					<small>Singapore</small>
+				</div>
+				<img src="images/12.jpg">
+			</div>
+			<div class="col-md-4">
+				<div class="user-review">
+					<p>What a place, the history, architecture and 
+						culture is wonderful.So many sites to see, one more amazing then the next.Paris is especially known for its museums and architectural 
+                                              landmarks.</p>
+					    <h5>T.B.Shakil</h5>
+					    <small>Paris</small>
+				 </div>
+				<img src="images/13.jpg">
+			</div>
+		</div>
+	</div>
+</section>
+<section class="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3">
+				<img src="images/14.png" class="footer-logo">
+				<p>Travel Rainbow  is a full service travel agency with many years of history in arranging your travel experience; whether it be for business or pleasure.                                         We are agents for the major tour operators, cruise lines, and world airlines.</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Features</h4>
+				<p>Deals & Offers</p>
+				<p>Customer Reviews</p>
+				<p>Cancelation Policy</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Quick contact</h4>
+				<p><i class="fa fa-phone-square"></i> +1 0123456789</p>
+				<p><i class="fa fa-envelope"></i> hello@gmail.com</p>
+				<p><i class="fa fa-home"></i> xyz Road,ABC City</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Follow Us On</h4>
+				<p><i class="fa fa-facebook-official"></i> Facebook</p>
+				<p><i class="fa fa-youtube-play"></i> Youtube</p>
+				<p><i class="fa fa-twitter"></i> Twitter</p>
+			</div>
+		</div><hr>
+		<p class="copyright">Made with <i class="fa fa-heart"></i></p>
+	</div>	
+</section>
+</body>
+</html>
